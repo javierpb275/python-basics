@@ -25,12 +25,18 @@ print(6%4)#1
 print(round(3.5))  # rounds the number (4)
 # returns absolute value of the number (non negative numbers)
 print(abs(-20))  # 20
-"""
+
 
 # operator precedence:
 print((20-3) + 2 ** 2)
 # 1-> (); 2-> **; 3-> *; 4-> * /; 5-> + -
+"""
 
+#complex
+complex
+#bin: returns the binary version
+print(bin(5))#0b101 (101)
+print(int('0b101', 2))#5
 
 """ 
 bool
