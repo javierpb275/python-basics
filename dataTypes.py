@@ -30,13 +30,24 @@ print(abs(-20))  # 20
 # operator precedence:
 print((20-3) + 2 ** 2)
 # 1-> (); 2-> **; 3-> *; 4-> * /; 5-> + -
-"""
+
 
 #complex
 complex
 #bin: returns the binary version
 print(bin(5))#0b101 (101)
 print(int('0b101', 2))#5
+"""
+
+#augmented assignment operator:
+some_value = 5
+
+some_value /= 2
+print(some_value)
+
+some_value += 2
+some_value -= 2
+some_value *= 2
 
 """ 
 bool
