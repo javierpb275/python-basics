@@ -2,7 +2,7 @@
 
 # NUMBERS:
 
-# integer:
+""" # integer:
 # int
 print(type(2+4))
 print(2-4)
@@ -19,7 +19,12 @@ print(2**3)
 #returns integer rounded down:
 print(5//4)#1
 #returns remainder of division:
-print(6%4)#1
+print(6%4)#1 """
+
+# math functions:
+print(round(3.5))  # rounds the number (4)
+# returns absolute value of the number (non negative numbers)
+print(abs(-20))  # 20
 
 """ 
 bool
