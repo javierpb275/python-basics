@@ -15,15 +15,25 @@ a long
 string
 ------
 '''
-#string concatenation
+# string concatenation
 full_name = first_name + ' ' + last_name
 
 print(full_name)
 
-#you cannot do: first_name + 5
+# you cannot do: first_name + 5
 
-#Type Conversion
+# Type Conversion
 print(type(int(str(100))))
+
+# Escape Sequence
+weather = "It's sunny"
+weather2 = 'Its "kinf of" sunny'
+weather3 = 'It\'s sunny'
+weather4 = "It's \"kind of\" sunny"
+weather5 = "\t It's \"kind of\" sunny\n have a nice day"
+print(weather3)
+print(weather4)
+print(weather5)
 
 """ 
 bool
