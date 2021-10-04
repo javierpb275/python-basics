@@ -41,13 +41,13 @@ age = 30
 print(f'Hi, my name is {name} and I\'m {age} ')
 print('Hi, my name is {1} and I\'m {0} '.format(name, age))
 print('Hi, my name is {new_name} and I\'m {new_age} '.format(new_name='paco', new_age=25))
-"""
+
 # string indexes
 abc = 'abcdefghijklmnopqrstuvwxyz'
 print(abc[0])  # a
 
 
-# [start:stop:stepover]
+# [start:stop:stepover] (string slicing)
 the_numbers = '0123456789'
 print(the_numbers[0:5])  # 01234
 print(the_numbers[0:5:2])  # 024
@@ -55,6 +55,12 @@ print(the_numbers[5:])  # 56789
 print(the_numbers[:5])  # 01234
 print(the_numbers[::2])  # 02468
 print(the_numbers[::-1])  # 9876543210
+"""
+
+#immutability (strings cannot be changed. you cannot reasign PART of a string)
+the_numbers = '0123456789'
+#the_numbers[0] = '9'
+the_numbers[0] = '9'#you have to create sth new
 
 """ 
 bool
