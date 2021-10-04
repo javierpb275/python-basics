@@ -15,10 +15,15 @@ a long
 string
 ------
 '''
-
+#string concatenation
 full_name = first_name + ' ' + last_name
 
 print(full_name)
+
+#you cannot do: first_name + 5
+
+#Type Conversion
+print(type(int(str(100))))
 
 """ 
 bool
