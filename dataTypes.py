@@ -7,7 +7,7 @@ my_integer = 1
 my_float = 2.5
 
 # str
-first_name = 'pepe'
+""" first_name = 'pepe'
 last_name = 'lopez'
 long_string = '''
 This is
@@ -33,7 +33,14 @@ weather4 = "It's \"kind of\" sunny"
 weather5 = "\t It's \"kind of\" sunny\n have a nice day"
 print(weather3)
 print(weather4)
-print(weather5)
+print(weather5) """
+
+# formatted strings
+name = 'pepe'
+age = 30
+print(f'Hi, my name is {name} and I\'m {age} ')
+print('Hi, my name is {1} and I\'m {0} '.format(name, age))
+print('Hi, my name is {new_name} and I\'m {new_age} '.format(new_name='paco', new_age=25))
 
 """ 
 bool
