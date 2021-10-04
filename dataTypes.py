@@ -1,14 +1,27 @@
 # data types:
 
 # NUMBERS:
-#int
+# int
 my_integer = 1
-#float
+# float
 my_float = 2.5
+
+# str
+first_name = 'pepe'
+last_name = 'lopez'
+long_string = '''
+This is
+a long
+string
+------
+'''
+
+full_name = first_name + ' ' + last_name
+
+print(full_name)
 
 """ 
 bool
-str
 list
 tuple
 set
