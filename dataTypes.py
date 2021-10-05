@@ -16,20 +16,11 @@ This is
 a long
 string
 '''
-#BOOLEAN:
-#bool
-""" name='pepe'
-is_cool = False
-is_cool = True
-print(bool(1))#true
-print(bool(0))#false
-print(bool('True'))#true
-print(bool(''))#false """
 
-#exercise type conversion
-birth_year = input('what year were you born?')
-age = 2021 - int(birth_year)
-print(f'you are {age}')
+# BOOLEAN:
+# bool
+verdad = True
+falso = False
 
 """ 
 list
