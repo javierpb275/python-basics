@@ -22,8 +22,18 @@ string
 verdad = True
 falso = False
 
+# LIST
+# list
+li_1 = [1, 2, 3, 4, 5]
+li_2 = ['a', 'b', 'c']
+li_3 = [1, 2.5, 'a', True]
+
+print(li_3[1])  # 2.5
+
+# Data Structure: the way to organize information or data. a container arround your data that has different pros and cons of accessing that data
+
+
 """ 
-list
 tuple
 set
 dict """
