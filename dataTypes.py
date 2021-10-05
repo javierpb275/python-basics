@@ -24,7 +24,7 @@ falso = False
 
 # LIST
 # list
-li_1 = [1, 2, 3, 4, 5]
+""" li_1 = [1, 2, 3, 4, 5]
 li_2 = ['a', 'b', 'c']
 li_3 = [1, 2.5, 'a', True]
 
@@ -55,7 +55,11 @@ print(fruits)  # ['grape', 'apple', 'banana', 'strawberry', 'watermelon']
 fruits_2 = fruits[:]  # <- copy
 fruits_2[0] = 'pineapple'
 print(fruits_2)  # ['pineapple', 'apple', 'banana', 'strawberry', 'watermelon']
-print(fruits)  # ['grape', 'apple', 'banana', 'strawberry', 'watermelon']
+print(fruits)  # ['grape', 'apple', 'banana', 'strawberry', 'watermelon'] """
+
+# Matrix
+matrix = [[1, 0, 1], [0, 1, 0], [1, 0, 1]]
+print(matrix[0][1])  # 0
 
 """ 
 tuple
