@@ -43,3 +43,15 @@ print(remove_list)  # [1, 2, 3, 4, 6, 7, 8, 9]
 clear_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 clear_list.clear()
 print(clear_list)  # []
+
+# index():Return first index of value (__value: str, __start: SupportsIndex = ..., __stop: SupportsIndex = ...)
+index_list = ['a', 'b', 'c']
+print(index_list.index('b', 0, 2))  # 1
+
+#count():Return number of occurrences of value.
+count_list = [1,2,3,1]
+print(count_list.count(1))#2
+
+#keywords: in
+print('c' in index_list)#True
+print('i' in 'hi my name is pepe')#True
