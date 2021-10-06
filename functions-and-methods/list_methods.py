@@ -48,10 +48,33 @@ print(clear_list)  # []
 index_list = ['a', 'b', 'c']
 print(index_list.index('b', 0, 2))  # 1
 
-#count():Return number of occurrences of value.
-count_list = [1,2,3,1]
-print(count_list.count(1))#2
+# count():Return number of occurrences of value.
+count_list = [1, 2, 3, 1]
+print(count_list.count(1))  # 2
 
-#keywords: in
-print('c' in index_list)#True
-print('i' in 'hi my name is pepe')#True
+# keywords: in
+print('c' in index_list)  # True
+print('i' in 'hi my name is pepe')  # True
+
+# built-in function:
+
+# sorted() (it produces a new array)
+unsorted_list = [8, 2, 9, 4, 1, 5, 3]
+sorted_list = sorted(unsorted_list)
+print(sorted_list)  # [1, 2, 3, 4, 5, 8, 9]
+
+# more methods:
+
+# sort():
+sort_list = [5, 2, 7, 1, 3]
+sort_list.sort()
+print(sort_list)  # [1, 2, 3, 5, 7]
+
+# copy()
+uncopied_list = [1, 2, 3]
+copied_list = uncopied_list.copy()
+print(copied_list)  # [1, 2, 3]
+
+# reverse()
+copied_list.reverse()
+print(copied_list)  # [3, 2, 1]
