@@ -29,17 +29,24 @@ li_2 = ['a', 'b', 'c']
 li_3 = [1, 2.5, 'a', True]
 matrix = [[1, 0, 1], [0, 1, 0], [1, 0, 1]]
 
-#NONE
+# NONE
 # None: nothing. absence of value.
 weapons = None
+
+# Dictionary
+# dict
+dictionary = {
+    'a': [1, 2, 3],
+    'b': True,
+    'c': 'hello',
+    'd': 37
+}
 
 """ 
 tuple
 set
-dict """
+"""
 
 # Classes -> custom types
 
 # Specialized Data Types: Special packages and modules that we can use from libraries.
-
-
