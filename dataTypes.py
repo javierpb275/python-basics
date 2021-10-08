@@ -33,13 +33,13 @@ matrix = [[1, 0, 1], [0, 1, 0], [1, 0, 1]]
 # None: nothing. absence of value.
 weapons = None
 
-# Dictionary
+# DICTIONARY
 # dict
-dictionary = {
-    'a': [1, 2, 3],
-    'b': True,
-    'c': 'hello',
-    'd': 37
+my_dictionary = {
+    123: [1, 2, 3],
+    True: 'Pepe',
+    'number': 82,
+    'Paco': False
 }
 
 """ 
