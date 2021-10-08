@@ -37,7 +37,6 @@ print(fruits)  # ['grape', 'apple', 'banana', 'strawberry', 'watermelon']
 matrix = [[1, 0, 1], [0, 1, 0], [1, 0, 1]]
 print(matrix[0][1])  # 0
 
-
 # common list patterns
 my_list = ['a', 1, 'b', 2, 'c', 3]
 print(len(my_list))  # 6
@@ -50,3 +49,9 @@ new_sentence = sentence.join(['hi', 'i', 'am', 'pepe'])
 print(new_sentence)  # hi!i!am!pepe
 sentence_2 = ' '.join(['hi', 'i', 'am', 'pepe'])
 print(sentence_2)  # hi i am pepe
+
+# list unpacking
+a, b, c, *others, d = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(a, b, c)  # 1 2 3
+print(others)  # [4, 5, 6, 7, 8]
+print(d)  # 9
