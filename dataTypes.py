@@ -42,6 +42,8 @@ my_dictionary = {
     'Paco': False
 }
 
+user2 = dict(name='paco', age=34)
+
 """ 
 tuple
 set
