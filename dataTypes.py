@@ -44,8 +44,11 @@ my_dictionary = {
 
 user2 = dict(name='paco', age=34)
 
+# TUPLE (imutable lists)
+# tuple
+my_tuple = (1, 2, 3, 4, 5)
+
 """ 
-tuple
 set
 """
 
