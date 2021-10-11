@@ -48,9 +48,10 @@ user2 = dict(name='paco', age=34)
 # tuple
 my_tuple = (1, 2, 3, 4, 5)
 
-""" 
-set
-"""
+# SET (unordered collections of unique objects)
+# set
+my_set = {1, 2, 3, 4, 5, 5}  # the last 5 never gets added
+
 
 # Classes -> custom types
 
